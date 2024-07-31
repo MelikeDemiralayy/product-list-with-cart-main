@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Product List with Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header-container">
+        <h1>Desserts</h1>
+    </div>
+
+    <main>
+        <section id="product-list" class="product-list">
+        </section>
+    
+        <aside id="cart" class="cart">
+            <h2>Your Cart (<span id="cart-quantity">0</span>)</h2>
+            <div id="cart-items">
+            </div>
+            <button id="checkout-button">Checkout</button>
+        </aside>
+       
+<div id="checkout-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Ödeme Ekranı</h2>
+        <p>Seçtiğiniz ürünler ve toplam tutar:</p>
+        
+        <div id="order-summary">
+        </div>
+
+        <div id="total-amount">
+            
+        </div>
+        
+        <button id="order-now-button">Order Now</button>
+    </div>
+</div>
+    </main>
+<script type="module" src="script.js"></script>
+</body>
+</html>
